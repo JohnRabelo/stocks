@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      Updates coming soon!
+      This page is under construction
     </div>
   );
 }
