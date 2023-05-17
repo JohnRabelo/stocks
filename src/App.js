@@ -1,8 +1,10 @@
+import Stock from "./pages/StockPg";
+
 
 function App() {
   return (
     <div>
-      This page is under construction
+      <Stock/>
     </div>
   );
 }
