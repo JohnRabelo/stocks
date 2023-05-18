@@ -3,3 +3,5 @@ Objective: Use Alpha Vantage API to fetch data related to Stock Market;
 Learing outcomes: UseEffect, APIs;
 Functionalities: (Coming soon) Lists, Add/Remove Items; 
 Run code: npm install dependencies and npm start
+
+LinkedIn: https://www.linkedin.com/in/johnrabelo/
