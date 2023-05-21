@@ -1,0 +1,26 @@
+.plotContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.plotElem{
+    width: 80vw;
+    height: 380px;
+    margin: 40px;
+    font-size: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 200px) and (max-width:600px) {
+
+    .plotElem{
+        width: 100vw;
+        height: 380px;
+        margin: 0;
+        font-size: 10px;
+    }
+
+}
