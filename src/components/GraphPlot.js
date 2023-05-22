@@ -91,7 +91,7 @@ function GraphPlotItem(props) {
                     marker: {color: 'rgb(16, 132, 77)'},
                 }
                 ]}
-                layout={{title: props.Stck}}
+                layout={{title: {text: props.Stck}, font: {size: 40}, xaxis:{font:{size: 10}}, yaxis:{font:{size: 10}} }   }
             />
         </div>
     );

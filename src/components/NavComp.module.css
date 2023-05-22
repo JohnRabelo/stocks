@@ -39,7 +39,7 @@ ul{
 li{
     list-style: none;
     margin: 0px 20px; 
-    font-size: 26px; 
+    font-size: 40px; 
 }
 
 .navigLink{
@@ -50,7 +50,7 @@ li{
 }
 
 .navigLink:hover{
-    color: #C43C52
+    color: wheat
 }
 
 .menuOpenerContainer{
@@ -65,7 +65,7 @@ li{
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width: 200px) and (max-width: 1000px) {
+@media (min-width: 200px) and (max-width: 1900px) {
     .navOrganizer{
         height: 120px;
     }
@@ -108,8 +108,8 @@ li{
     }
 
     .navLogo img{
-        height: 120px;
-        width: 120px;
+        height: 80px;
+        width: 80px;
         background-color: antiquewhite;
     }
 }

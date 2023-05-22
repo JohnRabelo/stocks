@@ -1,0 +1,97 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 180px);
+}
+
+.BannerOrganizer{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.BannerContainer{
+    overflow: hidden;
+    height: inherit;
+}
+
+.BannerDisplay{
+    width: 160vw;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.BannerDisplay img{
+    width: 80vw;
+    height: 60vh;
+    object-fit: contain;
+}
+
+.statement{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    color: rgb(18, 74, 92);
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.listLayout{
+    width: 80vw;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 200px) and (max-width: 449px) {
+
+    .BannerOrganizer{
+        height: 40vh;
+    }
+
+    .BannerDisplay img{
+        height: 40vh;
+    }
+
+    .statement{
+        width: 80vw;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 26px;
+        font-weight: 600;
+
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 840px) {
+
+
+
+    .BannerDisplay img{
+        height: 40vh;
+        object-fit: fill;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 840px) {
+    .BannerOrganizer{
+        height: 40vh;
+    }
+
+    .statement{
+        margin-bottom: 60px;
+    }
+}

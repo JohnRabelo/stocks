@@ -1,5 +1,5 @@
 import navcl from './NavComp.module.css'
-import StIf from '../Assets/stockInfo.JPG'
+import StIf from '../Assets/stockInfo.jpg'
 import hbgIcon from '../Assets/hbg.JPG'
 import {Outlet, NavLink} from "react-router-dom"
 import { useState } from 'react'
@@ -12,7 +12,7 @@ function NavBar() {
     function switchMenu(){
       const windowSize = window.innerWidth;
       setMenuIsOpen(current => !current);
-      if (windowSize < 1000){
+      if (windowSize < 1900){
         if (menuIsOpen){
           return document.querySelector('nav').style.display = 'flex';
         }

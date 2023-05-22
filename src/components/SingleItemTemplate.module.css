@@ -1,0 +1,90 @@
+.StdListItemContainer{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.StdListItem{
+    margin: 10px 0px;
+    width: 40vwpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title{
+    font-size: 60px;
+    color: black;
+    font-weight: 600;
+}
+
+.Source{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Description{
+    font-size: 50px;
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.businessLink{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 176, 11);
+    padding: 20px 40px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.businessLink:hover{
+    background-color:gold;
+    color: #C43C52;
+    
+}
+
+.StdListItemContainer img{
+    margin-top: 60px;
+    width: 800px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 200px) and (max-width: 449px) {
+
+    .StdListItemContainer{
+        width: 320px;
+    }
+
+    .StdListItem{
+        width: 300px;
+    }
+
+    .StdListItemContainer img{
+        width: 80vw;
+    }
+
+    .businessDescription{
+        width: 80vw;
+    
+    }
+
+    .mapsContainer{
+        width: 80vw;
+        height: 150px;
+    }
+
+}
+

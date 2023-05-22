@@ -2,17 +2,24 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    height: 600px;
+    margin-top: 400px;
 
 }
 
 .plotElem{
-    width: 80vw;
-    height: 380px;
-    margin: 40px;
-    font-size: 10px;
+    width: 50vw;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+
 }
 
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 @media (min-width: 200px) and (max-width:600px) {
 
