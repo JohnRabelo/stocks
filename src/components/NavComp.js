@@ -31,11 +31,10 @@ function NavBar() {
           <nav className={navcl.navMenu}>
             <ul>
               <li><NavLink to='/' className={navcl.navigLink} onClick={switchMenu}> Home</NavLink></li>
-              <li><NavLink to='/home' className={navcl.navigLink} onClick={switchMenu}>Tech</NavLink></li>
-              <li><NavLink to='/home' className={navcl.navigLink} onClick={switchMenu}>Commodities</NavLink></li>
-              <li><NavLink to='/home' className={navcl.navigLink} onClick={switchMenu}>Beverage</NavLink></li>
-              <li><NavLink to='/home' className={navcl.navigLink} onClick={switchMenu}>Automotive</NavLink></li>
-              <li><NavLink to='/home' className={navcl.navigLink} onClick={switchMenu}>News</NavLink></li>
+              <li><NavLink to='/tech' className={navcl.navigLink} onClick={switchMenu}>Tech</NavLink></li>
+              <li><NavLink to='/beverage' className={navcl.navigLink} onClick={switchMenu}>Beverage</NavLink></li>
+              <li><NavLink to='/energy' className={navcl.navigLink} onClick={switchMenu}>Energy</NavLink></li>
+              <li><NavLink to='/automotive' className={navcl.navigLink} onClick={switchMenu}>Automotive</NavLink></li>
             </ul>
           </nav>
           <div className={navcl.menuOpenerContainer} onClick={switchMenu}>

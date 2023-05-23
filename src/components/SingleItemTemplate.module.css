@@ -35,7 +35,7 @@
 }
 
 
-.businessLink{
+.Lk{
     text-decoration: none;
     color: black;
     background-color: rgb(236, 176, 11);
@@ -76,9 +76,22 @@
         width: 80vw;
     }
 
-    .businessDescription{
-        width: 80vw;
+    .Title{
+        font-size: 40px;
+        text-align: center;
+    }
     
+    .Source{
+        font-size: 20px;
+    }
+    
+    .Description{
+        font-size: 30px;
+    }
+    
+    
+    .Lk{
+        font-size: 20px;
     }
 
     .mapsContainer{

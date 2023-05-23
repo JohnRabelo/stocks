@@ -10,7 +10,7 @@ function SingleItem(props) {
                 <p className={SItemcl.Description}>{props.Description}</p>
                 <img src={props.ItemImage}  alt=''/>
                 <p className={SItemcl.Source}>Source link:</p>
-                <Link className={SItemcl.businessLink} to={props.WbSite} target='_blank'>Read more</Link>
+                <Link className={SItemcl.Lk} to={props.WbSite} target='_blank'>Read more</Link>
             </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ function Home() {
           </span>
         </div>
       </div>
-      <div className={homecl.statement}>Economy / News </div>
+      <div className={homecl.statement}> News </div>
       <div className={homecl.listLayout}> 
         <ItemOrganizer List = {LIST_DATA}  />
       </div>

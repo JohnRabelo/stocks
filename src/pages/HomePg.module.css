@@ -11,6 +11,7 @@
     justify-content: center;
     margin: auto;
     margin-top: 100px;
+    
 }
 
 .BannerContainer{
@@ -36,7 +37,7 @@
     display: flex;
     justify-content: center;
     color: rgb(18, 74, 92);
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 100px;
@@ -55,20 +56,18 @@
 
 @media (min-width: 200px) and (max-width: 449px) {
 
-    .BannerOrganizer{
-        height: 40vh;
-    }
 
     .BannerDisplay img{
-        height: 40vh;
+        width: 100vw;
+        height: 80vh;
     }
 
     .statement{
         width: 80vw;
         margin: auto;
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 40px;
-        font-size: 26px;
+        font-size: 40px;
         font-weight: 600;
 
     }
@@ -77,21 +76,37 @@
 
 @media (min-width: 200px) and (max-width: 840px) {
 
+    .BannerOrganizer{
+        height: 50vh;
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    .BannerContainer{
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .BannerDisplay{
+        height: 50vh;
+        width: 100vw;
+    }
 
 
     .BannerDisplay img{
-        height: 40vh;
+        height: 50vh;
+        width: 100vw;
         object-fit: fill;
     }
+    
 
 }
 
 @media (min-width: 450px) and (max-width: 840px) {
     .BannerOrganizer{
         height: 40vh;
+        width: 100vw;
     }
 
-    .statement{
-        margin-bottom: 60px;
-    }
+
 }
